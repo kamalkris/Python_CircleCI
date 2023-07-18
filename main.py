@@ -2,7 +2,7 @@ def to_upper(name):
     return name.upper()
 
 
-def say(name):
+def say_hello(name):
     print(f'Hello, {name}')  
 
 if __name__ == '__main__':

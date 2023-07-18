@@ -7,3 +7,8 @@ jobs:
     steps:
       - checkout
       - run: python main.py
+
+workflows:
+  build_now:
+    jobs:
+      build
